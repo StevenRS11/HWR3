@@ -1,7 +1,7 @@
 NewShipType = StartShipConfig()
 NewShipType.displayedName="$10022"
 NewShipType.sobDescription="$10023"
-NewShipType.maxhealth=1200
+NewShipType.maxhealth=2000
 NewShipType.regentime=120
 NewShipType.minRegenTime=60
 NewShipType.frontArmourDamage=0.85
@@ -11,7 +11,7 @@ NewShipType.isTransferable=1
 NewShipType.useEngagementRanges=0
 NewShipType.unitCapsNumber=2
 NewShipType.SquadronSize=1
-NewShipType.paradeData="tai_repairer_parade"
+NewShipType.paradeData="kus_repairer_parade"
 NewShipType.formationSpacing=45
 NewShipType.passiveFormation="Broad"
 NewShipType.defensiveFormation="Delta"

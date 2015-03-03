@@ -1,11 +1,12 @@
 NewShipType = StartShipConfig()
 NewShipType.displayedName="$10014"
 NewShipType.sobDescription="$10015"
-NewShipType.maxhealth=630 --400*1.15
+NewShipType.maxhealth=930 --400*1.15
 NewShipType.regentime=0
 NewShipType.minRegenTime=0
-NewShipType.sideArmourDamage=1
-NewShipType.rearArmourDamage=1
+NewShipType.frontArmourDamage=.8
+NewShipType.sideArmourDamage=.8
+NewShipType.rearArmourDamage=1.1
 NewShipType.isTransferable=1
 NewShipType.useEngagementRanges=0
 NewShipType.unitCapsNumber=2
