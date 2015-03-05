@@ -29,7 +29,14 @@ WorkshopID: 401794694
 
 // description that will appear on the Steam Workshop for this item
 Description:
-     A simple mod that aims to make the HW1 races more competetive with the HW2 races. Hopefully, this mod will become obsolete very soon when gearbox starts working on balance. If not, I will go about balancing the races a bit more elegantly. 
+    A simple mod that aims to make the HW1 races more competetive with the HW2 races while maintaining distinctive playstyle differences.
 
+    In general, this mod emphasizes the forward-facing behavior of most HW1 units by giving them substantial forward armor. As a result, proper positioning and smart engagment with HW1 units is very important. It also adds a few research options for HW1 players to keep up with the HW2 upgrades.
 
-     Right now, it gives signifigant health buffs to HW1 strikecraft with a few movement tweaks so they can trade vs their HW2 opposites. It also slightly buffs HW1 capital ship health and strongly emphasizes their front-facing nature by giving them signifigant forward armor (~25% damage reduction) and weaker rear armor. A properly positioned HW1 capital fleet will beat an equal HW2 fleet, but a flanking/backstabbing attack from the HW2 fleet will win by a large margin. 
+     More specifically, it gives signifigant health buffs to HW1 strikecraft with a few movement tweaks so they can trade vs their HW2 opposites. Defenders have powerful frontal armor, so they take little damage from incoming strikecraft, but high damage from flanking attacks. Corvettes have high side armor, so the target that they are currently circling will have a hard time fighting back. 
+
+    It also slightly buffs HW1 capital ship health and gives most of them atleast 25% damage reduction on frontal damage. Ion frigates and destroyers in particular negate 50% of incoming damage. A group of ion frigates can handily take on a destroyer as long as they are facing it. 
+
+    A properly positioned HW1 capital fleet will beat an equal HW2 fleet, but a flanking/backstabbing attack from the HW2 fleet will win by a large margin. 
+
+   Research for the HW1 races is still a WIP, but as of now the mothership has production speed upgrades to keep up with shipyards. I plan on adding armor (not health) upgrades for the various units as well.

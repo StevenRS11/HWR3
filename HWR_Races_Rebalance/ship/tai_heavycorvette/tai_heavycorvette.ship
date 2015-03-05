@@ -5,8 +5,8 @@ NewShipType.maxhealth=930 --400*1.15
 NewShipType.regentime=0
 NewShipType.minRegenTime=0
 NewShipType.frontArmourDamage=.8
-NewShipType.sideArmourDamage=.8
-NewShipType.rearArmourDamage=1.1
+NewShipType.sideArmourDamage=1
+NewShipType.rearArmourDamage=1.2
 NewShipType.isTransferable=1
 NewShipType.useEngagementRanges=0
 NewShipType.unitCapsNumber=2
@@ -127,12 +127,12 @@ NewShipType.launchNrOfShipsInDockFormation=1
 NewShipType.launchFormation="dockline"
 addAbility(NewShipType,"ParadeCommand",1);
 addAbility(NewShipType,"WaypointMove");
-addAbility(NewShipType,"CanAttack",1,3,1,0,0.35,1,"Corvette, Fighter, Frigate, Capturer, Utility, SmallCapitalShip, BigCapitalShip, Mothership","FlyBy_Corvette_vs_Corvette",
-{SmallCapitalShip="FlyBy_VCorvette_vs_CapShip"},
-{BigCapitalShip="FlyBy_VCorvette_vs_CapShip"},
-{Mothership="flyby_VCorvette_vs_Mothership"},
+addAbility(NewShipType,"CanAttack",1,3,1,0,0.35,1,"Corvette, Fighter, Frigate, Capturer, Utility, SmallCapitalShip, BigCapitalShip, Mothership","frontalcircle",
+{SmallCapitalShip="frontalcircle"},
+{BigCapitalShip="frontalcircle"},
+{Mothership="frontalcircle"},
 {SubSystem="FrontalVsSubSystem_Corvette"},
-{ResourceLarge="FlyBy_VCorvette_vs_CapShip"});
+{ResourceLarge="frontalcircle"});
 addAbility(NewShipType,"GuardCommand",1,3000,500);
 addAbility(NewShipType,"HyperspaceViaGateCommand",1,3,1,0.3);
 addAbility(NewShipType,"RetireAbility",1,0);
